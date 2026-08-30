@@ -1,5 +1,5 @@
 {
   "name": "Invisiproxy LTS",
-  "image": "://microsoft.com",
-  "postCreateCommand": "corepack enable && corepack prepare pnpm@latest --activate && pnpm install"
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-bookworm",
+  "postCreateCommand": "corepack enable && corepack prepare pnpm@latest --activate && pnpm install && npx playwright install --with-deps chromium"
 }
