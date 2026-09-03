@@ -30,8 +30,8 @@
   "author": "TitaniumNetwork",
   "license": "AGPL-3.0-only",
   "dependencies": {
-    "@fastify/helmet": "^13.0.2",
-    "@fastify/static": "^9.1.3",
+    "@fastify/helmet": "^13.1.1",
+    "@fastify/static": "^9.3.0",
     "@mercuryworkshop/bare-mux": "^2.1.9",
     "@mercuryworkshop/epoxy-transport": "^3.0.1",
     "@mercuryworkshop/libcurl-transport": "^2.0.5",
